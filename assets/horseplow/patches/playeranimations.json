@@ -1,0 +1,320 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "Horse Plow Handle Idle",
+      "code": "horseplow-hold-idle",
+      "quantityframes": 40,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {
+              "rotationZ": 3.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperTorso": {
+              "rotationZ": 8.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperArmL": {
+              "offsetY": -0.3,
+              "rotationX": -8.0,
+              "rotationY": 3.0,
+              "rotationZ": -34.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "LowerArmL": {
+              "rotationY": 10.0,
+              "rotationZ": -48.0,
+              "rotationX": 0.0
+            },
+            "UpperArmR": {
+              "offsetY": -0.3,
+              "rotationX": 8.0,
+              "rotationY": -3.0,
+              "rotationZ": -34.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "LowerArmR": {
+              "rotationY": -10.0,
+              "rotationZ": -48.0,
+              "rotationX": 0.0
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "elements": {
+            "UpperTorso": {
+              "offsetY": -0.08,
+              "rotationZ": 9.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerArmL": {
+              "rotationZ": -50.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerArmR": {
+              "rotationZ": -50.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "Horse Plow Push Walk",
+      "code": "horseplow-push-walk",
+      "quantityframes": 24,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {
+              "offsetY": -0.7,
+              "rotationY": 5.0,
+              "rotationZ": 5.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0
+            },
+            "UpperTorso": {
+              "rotationY": -7.0,
+              "rotationZ": 11.0,
+              "rotationX": 0.0
+            },
+            "UpperArmL": {
+              "offsetY": -0.3,
+              "rotationX": -7.0,
+              "rotationY": 4.0,
+              "rotationZ": -36.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "LowerArmL": {
+              "rotationY": 10.0,
+              "rotationZ": -48.0,
+              "rotationX": 0.0
+            },
+            "UpperArmR": {
+              "offsetY": -0.3,
+              "rotationX": 7.0,
+              "rotationY": -4.0,
+              "rotationZ": -36.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "LowerArmR": {
+              "rotationY": -10.0,
+              "rotationZ": -48.0,
+              "rotationX": 0.0
+            },
+            "UpperFootL": {
+              "rotationZ": -27.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootL": {
+              "rotationZ": 24.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperFootR": {
+              "rotationZ": 20.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootR": {
+              "rotationZ": 8.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "elements": {
+            "LowerTorso": {
+              "offsetY": -0.2,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "UpperFootL": {
+              "rotationZ": -10.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootL": {
+              "rotationZ": 35.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "elements": {
+            "LowerTorso": {
+              "offsetY": -0.7,
+              "rotationY": -5.0,
+              "rotationZ": 5.0,
+              "offsetX": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0
+            },
+            "UpperTorso": {
+              "rotationY": 7.0,
+              "rotationZ": 11.0,
+              "rotationX": 0.0
+            },
+            "UpperFootL": {
+              "rotationZ": 20.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootL": {
+              "rotationZ": 8.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperFootR": {
+              "rotationZ": -27.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootR": {
+              "rotationZ": 24.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        },
+        {
+          "frame": 18,
+          "elements": {
+            "LowerTorso": {
+              "offsetY": -0.2,
+              "offsetX": 0.0,
+              "offsetZ": 0.0
+            },
+            "UpperFootR": {
+              "rotationZ": -10.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "LowerFootR": {
+              "rotationZ": 35.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "Horse Plow Pull Walk Back",
+      "code": "horseplow-pull-walkback",
+      "quantityframes": 24,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {
+              "rotationY": -5.0,
+              "rotationZ": -2.0,
+              "rotationX": 0.0
+            },
+            "UpperTorso": {
+              "rotationY": 5.0,
+              "rotationZ": 2.0,
+              "rotationX": 0.0
+            },
+            "UpperArmL": {
+              "rotationX": -5.0,
+              "rotationY": 4.0,
+              "rotationZ": -28.0
+            },
+            "LowerArmL": {
+              "rotationY": 8.0,
+              "rotationZ": -38.0,
+              "rotationX": 0.0
+            },
+            "UpperArmR": {
+              "rotationX": 5.0,
+              "rotationY": -4.0,
+              "rotationZ": -28.0
+            },
+            "LowerArmR": {
+              "rotationY": -8.0,
+              "rotationZ": -38.0,
+              "rotationX": 0.0
+            },
+            "UpperFootL": {
+              "rotationZ": 15.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperFootR": {
+              "rotationZ": -18.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "elements": {
+            "LowerTorso": {
+              "rotationY": 5.0,
+              "rotationZ": -2.0,
+              "rotationX": 0.0
+            },
+            "UpperTorso": {
+              "rotationY": -5.0,
+              "rotationZ": 2.0,
+              "rotationX": 0.0
+            },
+            "UpperFootL": {
+              "rotationZ": -18.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperFootR": {
+              "rotationZ": 15.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json"
+  }
+]

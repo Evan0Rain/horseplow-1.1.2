@@ -1,0 +1,107 @@
+[
+  {
+    "file": "equusferus:entities/ferus/ferus.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/3/forCategoryCodes/-",
+    "value": "horseplowworkcollar"
+  },
+  {
+    "file": "equus:entities/tamedwildhorse.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/4/forCategoryCodes/-",
+    "value": "horseplowworkcollar",
+    "dependsOn": [
+      {
+        "modid": "equus"
+      }
+    ]
+  },
+  {
+    "file": "equusdestrier:entities/destrier/destrier.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/3/forCategoryCodes/-",
+    "value": "horseplowworkcollar",
+    "dependsOn": [
+      {
+        "modid": "equusdestrier"
+      }
+    ]
+  },
+  {
+    "file": "cavalry:entities/entitychevaltamed.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/6/forCategoryCodes/-",
+    "value": "horseplowworkcollar",
+    "dependsOn": [
+      {
+        "modid": "cavalry"
+      }
+    ]
+  },
+  {
+    "file": "feverstonehorses:entities/land/horse.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/-",
+    "value": {
+      "code": "neck",
+      "forCategoryCodes": [
+        "horseplowworkcollar"
+      ],
+      "attachmentPointCode": "NeckAP",
+      "stepParentTo": {
+        "": {
+          "elementName": "NeckStorage"
+        }
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "feverstonehorses"
+      }
+    ]
+  },
+  {
+    "file": "feverstonehorses:entities/land/horse.json",
+    "op": "add",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes/-",
+    "value": "NeckAP",
+    "dependsOn": [
+      {
+        "modid": "feverstonehorses"
+      }
+    ]
+  },
+  {
+    "file": "feverstonewilds:entities/land/horse.json",
+    "op": "add",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/-",
+    "value": {
+      "code": "neck",
+      "forCategoryCodes": [
+        "horseplowworkcollar"
+      ],
+      "attachmentPointCode": "NeckAP",
+      "stepParentTo": {
+        "": {
+          "elementName": "NeckStorage"
+        }
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  },
+  {
+    "file": "feverstonewilds:entities/land/horse.json",
+    "op": "add",
+    "path": "/behaviorConfigs/selectionboxes/selectionBoxes/-",
+    "value": "NeckAP",
+    "dependsOn": [
+      {
+        "modid": "feverstonewilds"
+      }
+    ]
+  }
+]

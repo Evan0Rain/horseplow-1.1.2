@@ -1,0 +1,24 @@
+{
+  "ingredientPattern": "BNB,BBB,PNP",
+  "ingredients": {
+    "P": {
+      "type": "item",
+      "code": "game:metalplate-iron"
+    },
+    "B": {
+      "type": "block",
+      "code": "game:supportbeam-*"
+    },
+    "N": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-*"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "horseplow:creature-horseplow",
+    "quantity": 1
+  }
+}

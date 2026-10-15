@@ -1,0 +1,790 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true,
+    "backdrops": [],
+    "attachments": []
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "texture1": [
+      32,
+      32
+    ]
+  },
+  "textures": {
+    "texture1": "horseplow:item/Collar"
+  },
+  "elements": [
+    {
+      "name": "Cube",
+      "from":[11.715999603271484,1.2979999780654907,-5.5],
+      "to":[11.715999603271484,1.2979999780654907,-5.5],
+      "faces": {
+        "north": {
+          "texture": "#texture1",
+          "uv":[19.5,4.0,20.0,4.5]
+        },
+        "east": {
+          "texture": "#texture1",
+          "uv":[20.0,4.0,20.5,4.5]
+        },
+        "south": {
+          "texture": "#texture1",
+          "uv":[20.5,4.0,21.0,4.5]
+        },
+        "west": {
+          "texture": "#texture1",
+          "uv":[21.0,4.0,21.5,4.5]
+        },
+        "up": {
+          "texture": "#texture1",
+          "uv":[19.5,3.5,20.0,4.0]
+        },
+        "down": {
+          "texture": "#texture1",
+          "uv":[20.0,3.5,20.5,4.0]
+        }
+      },
+      "rotationOrigin":[11.715999603271484,1.2979999780654907,-5.5],
+      "rotationZ": 35.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "children": [
+        {
+          "name": "Collier section centrale g",
+          "from":[-7.5806,8.4750003814697266,12.0],
+          "to":[-4.5806,14.975000381469727,15.0],
+          "faces": {
+            "north": {
+              "texture": "#texture1",
+              "uv":[16.0,20.5,19.0,27.0]
+            },
+            "east": {
+              "texture": "#texture1",
+              "uv":[19.0,20.5,22.0,27.0]
+            },
+            "south": {
+              "texture": "#texture1",
+              "uv":[22.0,20.5,25.0,27.0]
+            },
+            "west": {
+              "texture": "#texture1",
+              "uv":[25.0,20.5,28.0,27.0]
+            },
+            "up": {
+              "texture": "#texture1",
+              "uv":[16.0,17.5,19.0,20.5]
+            },
+            "down": {
+              "texture": "#texture1",
+              "uv":[19.0,17.5,22.0,20.5]
+            }
+          },
+          "rotationOrigin":[-7.5807,8.4751003814697263,12.0],
+          "rotationX": 180.0,
+          "rotationZ": 155.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "children": [
+            {
+              "name": "Collier section haute inter g",
+              "from":[-0.0099999997764825821,6.5,0.0],
+              "to":[2.9900000002235174,10.5,3.0],
+              "faces": {
+                "north": {
+                  "texture": "#texture1",
+                  "uv":[0.5,24.5,3.5,28.5]
+                },
+                "east": {
+                  "texture": "#texture1",
+                  "uv":[3.5,24.5,6.5,28.5]
+                },
+                "south": {
+                  "texture": "#texture1",
+                  "uv":[6.5,24.5,9.5,28.5]
+                },
+                "west": {
+                  "texture": "#texture1",
+                  "uv":[9.5,24.5,12.5,28.5]
+                },
+                "up": {
+                  "texture": "#texture1",
+                  "uv":[0.5,21.5,3.5,24.5]
+                },
+                "down": {
+                  "texture": "#texture1",
+                  "uv":[3.5,21.5,6.5,24.5]
+                }
+              },
+              "rotationOrigin":[-0.0099999997764825821,6.5,0.0],
+              "rotationX": 15.0,
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "children": [
+                {
+                  "name": "Collier section haute g",
+                  "from":[0.0099999997764825821,4.0,0.0],
+                  "to":[3.0099999997764826,8.5,3.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#texture1",
+                      "uv":[0.5,24.5,3.5,29.0]
+                    },
+                    "east": {
+                      "texture": "#texture1",
+                      "uv":[3.5,24.5,6.5,29.0]
+                    },
+                    "south": {
+                      "texture": "#texture1",
+                      "uv":[6.5,24.5,9.5,29.0]
+                    },
+                    "west": {
+                      "texture": "#texture1",
+                      "uv":[9.5,24.5,12.5,29.0]
+                    },
+                    "up": {
+                      "texture": "#texture1",
+                      "uv":[0.5,21.5,3.5,24.5]
+                    },
+                    "down": {
+                      "texture": "#texture1",
+                      "uv":[3.5,21.5,6.5,24.5]
+                    }
+                  },
+                  "rotationOrigin":[0.0099999997764825821,4.0,0.0],
+                  "rotationX": 42.0,
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0,
+                  "children": [
+                    {
+                      "name": "Collier section haute d",
+                      "from":[-0.0099999997764825821,4.5,0.0],
+                      "to":[2.9900000002235174,9.0,3.0],
+                      "faces": {
+                        "north": {
+                          "texture": "#texture1",
+                          "uv":[0.5,24.5,3.5,29.0]
+                        },
+                        "east": {
+                          "texture": "#texture1",
+                          "uv":[3.5,24.5,6.5,29.0]
+                        },
+                        "south": {
+                          "texture": "#texture1",
+                          "uv":[6.5,24.5,9.5,29.0]
+                        },
+                        "west": {
+                          "texture": "#texture1",
+                          "uv":[9.5,24.5,12.5,29.0]
+                        },
+                        "up": {
+                          "texture": "#texture1",
+                          "uv":[0.5,21.5,3.5,24.5]
+                        },
+                        "down": {
+                          "texture": "#texture1",
+                          "uv":[3.5,21.5,6.5,24.5]
+                        }
+                      },
+                      "rotationOrigin":[-0.0099999997764825821,4.5,0.0],
+                      "rotationX": 67.5,
+                      "scaleX": 1.0,
+                      "scaleY": 1.0,
+                      "scaleZ": 1.0,
+                      "children": [
+                        {
+                          "name": "Collier section  haute inter d",
+                          "from":[0.0099999997764825821,4.5,0.0],
+                          "to":[3.0099999997764826,8.5,3.0],
+                          "faces": {
+                            "north": {
+                              "texture": "#texture1",
+                              "uv":[16.0,20.5,19.0,24.5]
+                            },
+                            "east": {
+                              "texture": "#texture1",
+                              "uv":[19.0,20.5,22.0,24.5]
+                            },
+                            "south": {
+                              "texture": "#texture1",
+                              "uv":[22.0,20.5,25.0,24.5]
+                            },
+                            "west": {
+                              "texture": "#texture1",
+                              "uv":[25.0,20.5,28.0,24.5]
+                            },
+                            "up": {
+                              "texture": "#texture1",
+                              "uv":[16.0,17.5,19.0,20.5]
+                            },
+                            "down": {
+                              "texture": "#texture1",
+                              "uv":[19.0,17.5,22.0,20.5]
+                            }
+                          },
+                          "rotationOrigin":[0.0099999997764825821,4.5,0.0],
+                          "rotationX": 42.0,
+                          "scaleX": 1.0,
+                          "scaleY": 1.0,
+                          "scaleZ": 1.0,
+                          "children": [
+                            {
+                              "name": "Collier section centrale d",
+                              "from":[-0.0099999997764825821,4.0,0.0],
+                              "to":[2.9900000002235174,10.5,3.0],
+                              "faces": {
+                                "north": {
+                                  "texture": "#texture1",
+                                  "uv":[16.0,20.5,19.0,27.0]
+                                },
+                                "east": {
+                                  "texture": "#texture1",
+                                  "uv":[19.0,20.5,22.0,27.0]
+                                },
+                                "south": {
+                                  "texture": "#texture1",
+                                  "uv":[22.0,20.5,25.0,27.0]
+                                },
+                                "west": {
+                                  "texture": "#texture1",
+                                  "uv":[25.0,20.5,28.0,27.0]
+                                },
+                                "up": {
+                                  "texture": "#texture1",
+                                  "uv":[16.0,17.5,19.0,20.5]
+                                },
+                                "down": {
+                                  "texture": "#texture1",
+                                  "uv":[19.0,17.5,22.0,20.5]
+                                }
+                              },
+                              "rotationOrigin":[-0.0099999997764825821,4.0,0.0],
+                              "rotationX": 15.0,
+                              "scaleX": 1.0,
+                              "scaleY": 1.0,
+                              "scaleZ": 1.0,
+                              "children": [
+                                {
+                                  "name": "collier bas d",
+                                  "from":[0.0099999997764825821,6.5,0.0],
+                                  "to":[3.0099999997764826,9.5,3.0],
+                                  "faces": {
+                                    "north": {
+                                      "texture": "#texture1",
+                                      "uv":[0.5,24.5,3.5,27.5]
+                                    },
+                                    "east": {
+                                      "texture": "#texture1",
+                                      "uv":[3.5,24.5,6.5,27.5]
+                                    },
+                                    "south": {
+                                      "texture": "#texture1",
+                                      "uv":[6.5,24.5,9.5,27.5]
+                                    },
+                                    "west": {
+                                      "texture": "#texture1",
+                                      "uv":[9.5,24.5,12.5,27.5]
+                                    },
+                                    "up": {
+                                      "texture": "#texture1",
+                                      "uv":[0.5,21.5,3.5,24.5]
+                                    },
+                                    "down": {
+                                      "texture": "#texture1",
+                                      "uv":[3.5,21.5,6.5,24.5]
+                                    }
+                                  },
+                                  "rotationOrigin":[0.0099999997764825821,6.5,0.0],
+                                  "rotationX": 22.5,
+                                  "scaleX": 1.0,
+                                  "scaleY": 1.0,
+                                  "scaleZ": 1.0,
+                                  "children": [
+                                    {
+                                      "name": "collier bas bas d",
+                                      "from":[-0.0099999997764825821,3.0,0.0],
+                                      "to":[2.9900000002235174,6.0,3.0],
+                                      "faces": {
+                                        "north": {
+                                          "texture": "#texture1",
+                                          "uv":[0.5,24.5,3.5,27.5]
+                                        },
+                                        "east": {
+                                          "texture": "#texture1",
+                                          "uv":[3.5,24.5,6.5,27.5]
+                                        },
+                                        "south": {
+                                          "texture": "#texture1",
+                                          "uv":[6.5,24.5,9.5,27.5]
+                                        },
+                                        "west": {
+                                          "texture": "#texture1",
+                                          "uv":[9.5,24.5,12.5,27.5]
+                                        },
+                                        "up": {
+                                          "texture": "#texture1",
+                                          "uv":[0.5,21.5,3.5,24.5]
+                                        },
+                                        "down": {
+                                          "texture": "#texture1",
+                                          "uv":[3.5,21.5,6.5,24.5]
+                                        }
+                                      },
+                                      "rotationOrigin":[-0.0099999997764825821,3.0,0.0],
+                                      "rotationX": 45.0,
+                                      "scaleX": 1.0,
+                                      "scaleY": 1.0,
+                                      "scaleZ": 1.0,
+                                      "uv":[0.5,21.5]
+                                    }
+                                  ],
+                                  "uv":[0.5,21.5]
+                                }
+                              ],
+                              "uv":[16.0,17.5]
+                            }
+                          ],
+                          "uv":[16.0,17.5]
+                        }
+                      ],
+                      "uv":[0.5,21.5]
+                    }
+                  ],
+                  "uv":[0.5,21.5]
+                }
+              ],
+              "uv":[0.5,21.5]
+            },
+            {
+              "name": "Tige4",
+              "from":[1.5,1.5,2.7],
+              "to":[4.7000000476837158,1.800000011920929,3.0000000119209291],
+              "faces": {
+                "north": {
+                  "texture": "#texture1",
+                  "uv":[5.5,9.0,8.5,9.5]
+                },
+                "east": {
+                  "texture": "#texture1",
+                  "uv":[8.5,9.0,9.0,9.5]
+                },
+                "south": {
+                  "texture": "#texture1",
+                  "uv":[9.0,9.0,12.0,9.5]
+                },
+                "west": {
+                  "texture": "#texture1",
+                  "uv":[12.0,9.0,12.5,9.5]
+                },
+                "up": {
+                  "texture": "#texture1",
+                  "uv":[5.5,8.5,8.5,9.0]
+                },
+                "down": {
+                  "texture": "#texture1",
+                  "uv":[8.5,8.5,11.5,9.0]
+                }
+              },
+              "rotationOrigin":[1.4992,1.5,2.7003],
+              "rotationX": 180.0,
+              "rotationY": -90.0,
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "children": [
+                {
+                  "name": "crochet b",
+                  "from":[3.2000000476837158,0.0,0.30000001192092896],
+                  "to":[3.8000000715255737,0.30000001192092896,0.60000002384185791],
+                  "faces": {
+                    "north": {
+                      "texture": "#texture1",
+                      "uv":[5.5,9.0,6.0,9.5]
+                    },
+                    "east": {
+                      "texture": "#texture1",
+                      "uv":[6.0,9.0,6.5,9.5]
+                    },
+                    "south": {
+                      "texture": "#texture1",
+                      "uv":[6.5,9.0,7.0,9.5]
+                    },
+                    "west": {
+                      "texture": "#texture1",
+                      "uv":[7.0,9.0,7.5,9.5]
+                    },
+                    "up": {
+                      "texture": "#texture1",
+                      "uv":[5.5,8.5,6.0,9.0]
+                    },
+                    "down": {
+                      "texture": "#texture1",
+                      "uv":[6.0,8.5,6.5,9.0]
+                    }
+                  },
+                  "rotationOrigin":[3.2000000476837158,0.0,0.30000001192092896],
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0,
+                  "children": [
+                    {
+                      "name": "crochet d",
+                      "from":[0.60000002384185791,0.0,-0.60000002384185791],
+                      "to":[0.90000003576278687,0.30000001192092896,0.0],
+                      "faces": {
+                        "north": {
+                          "texture": "#texture1",
+                          "uv":[6.0,9.0,6.5,9.5]
+                        },
+                        "east": {
+                          "texture": "#texture1",
+                          "uv":[6.5,9.0,7.0,9.5]
+                        },
+                        "south": {
+                          "texture": "#texture1",
+                          "uv":[7.0,9.0,7.5,9.5]
+                        },
+                        "west": {
+                          "texture": "#texture1",
+                          "uv":[7.5,9.0,8.0,9.5]
+                        },
+                        "up": {
+                          "texture": "#texture1",
+                          "uv":[6.0,8.5,6.5,9.0]
+                        },
+                        "down": {
+                          "texture": "#texture1",
+                          "uv":[6.5,8.5,7.0,9.0]
+                        }
+                      },
+                      "rotationOrigin":[0.60000002384185791,0.0,-0.60000002384185791],
+                      "scaleX": 1.0,
+                      "scaleY": 1.0,
+                      "scaleZ": 1.0,
+                      "children": [
+                        {
+                          "name": "crochet f",
+                          "from":[-0.30000001192092896,0.0,-0.30000001192092896],
+                          "to":[0.0,0.30000001192092896,0.0],
+                          "faces": {
+                            "north": {
+                              "texture": "#texture1",
+                              "uv":[5.5,9.0,6.0,9.5]
+                            },
+                            "east": {
+                              "texture": "#texture1",
+                              "uv":[6.0,9.0,6.5,9.5]
+                            },
+                            "south": {
+                              "texture": "#texture1",
+                              "uv":[6.5,9.0,7.0,9.5]
+                            },
+                            "west": {
+                              "texture": "#texture1",
+                              "uv":[7.0,9.0,7.5,9.5]
+                            },
+                            "up": {
+                              "texture": "#texture1",
+                              "uv":[5.5,8.5,6.0,9.0]
+                            },
+                            "down": {
+                              "texture": "#texture1",
+                              "uv":[6.0,8.5,6.5,9.0]
+                            }
+                          },
+                          "rotationOrigin":[-0.30000001192092896,0.0,-0.30000001192092896],
+                          "scaleX": 1.0,
+                          "scaleY": 1.0,
+                          "scaleZ": 1.0,
+                          "uv":[5.5,8.5]
+                        }
+                      ],
+                      "uv":[6.0,8.5]
+                    }
+                  ],
+                  "uv":[5.5,8.5]
+                }
+              ],
+              "uv":[5.5,8.5]
+            },
+            {
+              "name": "Tige5",
+              "from":[1.5,1.5000003496911134,6.5999999046325684],
+              "to":[4.7000000476837158,1.8000003616120424,6.8999999165534973],
+              "faces": {
+                "north": {
+                  "texture": "#texture1",
+                  "uv":[5.5,9.0,8.5,9.5]
+                },
+                "east": {
+                  "texture": "#texture1",
+                  "uv":[8.5,9.0,9.0,9.5]
+                },
+                "south": {
+                  "texture": "#texture1",
+                  "uv":[9.0,9.0,12.0,9.5]
+                },
+                "west": {
+                  "texture": "#texture1",
+                  "uv":[12.0,9.0,12.5,9.5]
+                },
+                "up": {
+                  "texture": "#texture1",
+                  "uv":[5.5,8.5,8.5,9.0]
+                },
+                "down": {
+                  "texture": "#texture1",
+                  "uv":[8.5,8.5,11.5,9.0]
+                }
+              },
+              "rotationOrigin":[1.4992,1.5000003496911134,6.6002999046325685],
+              "rotationY": -90.0,
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "children": [
+                {
+                  "name": "crochet b1",
+                  "from":[3.2000000476837158,0.0,0.30000001192092896],
+                  "to":[3.8000000715255737,0.30000001192092896,0.60000002384185791],
+                  "faces": {
+                    "north": {
+                      "texture": "#texture1",
+                      "uv":[5.5,9.0,6.0,9.5]
+                    },
+                    "east": {
+                      "texture": "#texture1",
+                      "uv":[6.0,9.0,6.5,9.5]
+                    },
+                    "south": {
+                      "texture": "#texture1",
+                      "uv":[6.5,9.0,7.0,9.5]
+                    },
+                    "west": {
+                      "texture": "#texture1",
+                      "uv":[7.0,9.0,7.5,9.5]
+                    },
+                    "up": {
+                      "texture": "#texture1",
+                      "uv":[5.5,8.5,6.0,9.0]
+                    },
+                    "down": {
+                      "texture": "#texture1",
+                      "uv":[6.0,8.5,6.5,9.0]
+                    }
+                  },
+                  "rotationOrigin":[3.2000000476837158,0.0,0.30000001192092896],
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0,
+                  "children": [
+                    {
+                      "name": "crochet d1",
+                      "from":[0.60000002384185791,0.0,-0.60000002384185791],
+                      "to":[0.90000003576278687,0.30000001192092896,0.0],
+                      "faces": {
+                        "north": {
+                          "texture": "#texture1",
+                          "uv":[5.5,9.0,6.0,9.5]
+                        },
+                        "east": {
+                          "texture": "#texture1",
+                          "uv":[6.0,9.0,6.5,9.5]
+                        },
+                        "south": {
+                          "texture": "#texture1",
+                          "uv":[6.5,9.0,7.0,9.5]
+                        },
+                        "west": {
+                          "texture": "#texture1",
+                          "uv":[7.0,9.0,7.5,9.5]
+                        },
+                        "up": {
+                          "texture": "#texture1",
+                          "uv":[5.5,8.5,6.0,9.0]
+                        },
+                        "down": {
+                          "texture": "#texture1",
+                          "uv":[6.0,8.5,6.5,9.0]
+                        }
+                      },
+                      "rotationOrigin":[0.60000002384185791,0.0,-0.60000002384185791],
+                      "scaleX": 1.0,
+                      "scaleY": 1.0,
+                      "scaleZ": 1.0,
+                      "children": [
+                        {
+                          "name": "crochet f1",
+                          "from":[-0.30000001192092896,0.0,-0.30000001192092896],
+                          "to":[0.0,0.30000001192092896,0.0],
+                          "faces": {
+                            "north": {
+                              "texture": "#texture1",
+                              "uv":[5.5,9.0,6.0,9.5]
+                            },
+                            "east": {
+                              "texture": "#texture1",
+                              "uv":[6.0,9.0,6.5,9.5]
+                            },
+                            "south": {
+                              "texture": "#texture1",
+                              "uv":[6.5,9.0,7.0,9.5]
+                            },
+                            "west": {
+                              "texture": "#texture1",
+                              "uv":[7.0,9.0,7.5,9.5]
+                            },
+                            "up": {
+                              "texture": "#texture1",
+                              "uv":[5.5,8.5,6.0,9.0]
+                            },
+                            "down": {
+                              "texture": "#texture1",
+                              "uv":[6.0,8.5,6.5,9.0]
+                            }
+                          },
+                          "rotationOrigin":[-0.30000001192092896,0.0,-0.30000001192092896],
+                          "scaleX": 1.0,
+                          "scaleY": 1.0,
+                          "scaleZ": 1.0,
+                          "uv":[5.5,8.5]
+                        }
+                      ],
+                      "uv":[5.5,8.5]
+                    }
+                  ],
+                  "uv":[5.5,8.5]
+                }
+              ],
+              "uv":[5.5,8.5]
+            },
+            {
+              "name": "collier bas g",
+              "from":[0.0099999997764825821,-3.0,0.0],
+              "to":[3.0099999997764826,0.0,3.0],
+              "faces": {
+                "north": {
+                  "texture": "#texture1",
+                  "uv":[0.5,24.5,3.5,27.5]
+                },
+                "east": {
+                  "texture": "#texture1",
+                  "uv":[3.5,24.5,6.5,27.5]
+                },
+                "south": {
+                  "texture": "#texture1",
+                  "uv":[6.5,24.5,9.5,27.5]
+                },
+                "west": {
+                  "texture": "#texture1",
+                  "uv":[9.5,24.5,12.5,27.5]
+                },
+                "up": {
+                  "texture": "#texture1",
+                  "uv":[0.5,21.5,3.5,24.5]
+                },
+                "down": {
+                  "texture": "#texture1",
+                  "uv":[3.5,21.5,6.5,24.5]
+                }
+              },
+              "rotationOrigin":[0.0099999997764825821,0.0,0.0],
+              "rotationX": -22.5,
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "children": [
+                {
+                  "name": "collier bas bas g",
+                  "from":[-0.0099999997764825821,-3.0,0.0],
+                  "to":[2.9900000002235174,0.0,3.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#texture1",
+                      "uv":[0.5,24.5,3.5,27.5]
+                    },
+                    "east": {
+                      "texture": "#texture1",
+                      "uv":[3.5,24.5,6.5,27.5]
+                    },
+                    "south": {
+                      "texture": "#texture1",
+                      "uv":[6.5,24.5,9.5,27.5]
+                    },
+                    "west": {
+                      "texture": "#texture1",
+                      "uv":[9.5,24.5,12.5,27.5]
+                    },
+                    "up": {
+                      "texture": "#texture1",
+                      "uv":[0.5,21.5,3.5,24.5]
+                    },
+                    "down": {
+                      "texture": "#texture1",
+                      "uv":[3.5,21.5,6.5,24.5]
+                    }
+                  },
+                  "rotationOrigin":[-0.0099999997764825821,0.0,0.0],
+                  "rotationX": -45.0,
+                  "scaleX": 1.0,
+                  "scaleY": 1.0,
+                  "scaleZ": 1.0,
+                  "children": [
+                    {
+                      "name": "collier bas",
+                      "from":[0.0099999997764825821,-1.3500000238418579,0.0],
+                      "to":[3.0099999997764826,0.0,3.0],
+                      "faces": {
+                        "north": {
+                          "texture": "#texture1",
+                          "uv":[0.5,24.5,3.5,25.5]
+                        },
+                        "east": {
+                          "texture": "#texture1",
+                          "uv":[3.5,24.5,6.5,25.5]
+                        },
+                        "south": {
+                          "texture": "#texture1",
+                          "uv":[6.5,24.5,9.5,25.5]
+                        },
+                        "west": {
+                          "texture": "#texture1",
+                          "uv":[9.5,24.5,12.5,25.5]
+                        },
+                        "up": {
+                          "texture": "#texture1",
+                          "uv":[0.5,21.5,3.5,24.5]
+                        },
+                        "down": {
+                          "texture": "#texture1",
+                          "uv":[3.5,21.5,6.5,24.5]
+                        }
+                      },
+                      "rotationOrigin":[0.0099999997764825821,-0.050000026822090149,0.0],
+                      "rotationX": -22.5,
+                      "scaleX": 1.0,
+                      "scaleY": 1.0,
+                      "scaleZ": 1.0,
+                      "uv":[0.5,21.5]
+                    }
+                  ],
+                  "uv":[0.5,21.5]
+                }
+              ],
+              "uv":[0.5,21.5]
+            }
+          ],
+          "uv":[16.0,17.5]
+        }
+      ],
+      "uv":[19.5,3.5]
+    }
+  ],
+  "animations": []
+}

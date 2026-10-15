@@ -1,0 +1,21 @@
+{
+  "ingredientPattern": "BBB,NBN,BBB",
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "game:leather-normal-plain",
+      "quantity": 3
+    },
+    "N": {
+      "type": "item",
+      "code": "game:metalnailsandstrips-*"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "horseplow:workcollar",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 1,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": ["horseplow"]
+    }
+  ],
+  "shapeByType": {
+    "*-horseplow": {
+      "base": "horseplow:entity/horseplow"
+    }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "creatures": ["*"]
+  },
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "*-horseplow": {
+      "rotate": true,
+      "rotation": { "x": -20, "y": 30, "z": 180 },
+      "origin": { "x": 0.5, "y": 0.35, "z": 0.5 },
+      "scale": 0.8
+    }
+  },
+  "tpHandTransformByType": {
+    "*-horseplow": {
+      "translation": { "x": -0.6, "y": -0.8, "z": -0.8 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "scale": 1
+    }
+  },
+  "fpHandTransformByType": {
+    "*-horseplow": {
+      "translation": { "x": 0, "y": -0.4, "z": -0.6 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "scale": 1
+    }
+  },
+  "handbook": {
+    "include": true,
+    "extraSections": [
+      {
+        "title": "horseplow:handbook-horseplowing-title",
+        "text": "horseplow:handbook-horseplowing-link"
+      }
+    ]
+  }
+}

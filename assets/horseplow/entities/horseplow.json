@@ -1,0 +1,122 @@
+{
+  "code": "horseplow",
+  "class": "EntityHorsePlow",
+  "tags": [
+    "inanimate"
+  ],
+  "weight": 300,
+  "attributes": {
+    "shouldSwivelFromMotion": false,
+    "relayRopeInteractions": true
+  },
+  "hitboxSize": {
+    "x": 2.0,
+    "y": 0.8,
+    "z": 1.5
+  },
+  "behaviorConfigs": {
+    "passivephysicsmultibox": {
+      "collisionBoxes": [
+        {
+          "x1": -1.0,
+          "y1": 0,
+          "z1": -0.75,
+          "x2": 1.0,
+          "y2": 0.8,
+          "z2": 0.75
+        }
+      ],
+      "groundDragFactor": 1,
+      "airDragFallingFactor": 0.5,
+      "gravityFactor": 1.0
+    },
+    "creaturecarrier": {
+      "seats": [
+        {
+          "seatId": "seat-0",
+          "apName": "none",
+          "controllable": true,
+          "bodyYawLimit": null,
+          "eyeHeight": 1.62,
+          "animation": "horseplow-hold-idle"
+        }
+      ]
+    }
+  },
+  "selectionBoxSize": {
+    "x": 2.2,
+    "y": 1.2
+  },
+  "client": {
+    "size": 1,
+    "renderer": "Shape",
+    "shape": {
+      "base": "horseplow:entity/horseplow",
+      "offsetY": 0.15
+    },
+    "behaviors": [
+      {
+        "code": "passivephysicsmultibox"
+      },
+      {
+        "code": "interpolateposition"
+      },
+      {
+        "code": "creaturecarrier"
+      }
+    ],
+    "animations": [
+      {
+        "code": "walk",
+        "animation": "walk",
+        "animationSpeed": 1.0,
+        "easeInSpeed": 10,
+        "easeOutSpeed": 10,
+        "supressDefaultAnimation": true,
+        "blendMode": "Average",
+        "clientSide": true
+      },
+      {
+        "code": "walkback",
+        "animation": "walkback",
+        "animationSpeed": 1.0,
+        "easeInSpeed": 20,
+        "easeOutSpeed": 20,
+        "weight": 5,
+        "blendMode": "Average",
+        "clientSide": true
+      },
+      {
+        "code": "blade-lower",
+        "animation": "blade-lower",
+        "animationSpeed": 1.0,
+        "easeInSpeed": 10,
+        "easeOutSpeed": 10,
+        "weight": 1,
+        "blendMode": "Average",
+        "clientSide": true
+      },
+      {
+        "code": "blade-raise",
+        "animation": "blade-raise",
+        "animationSpeed": 1.0,
+        "easeInSpeed": 10,
+        "easeOutSpeed": 10,
+        "weight": 1,
+        "blendMode": "Average",
+        "clientSide": true
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "passivephysicsmultibox"
+      },
+      {
+        "code": "creaturecarrier"
+      }
+    ]
+  },
+  "sounds": {}
+}

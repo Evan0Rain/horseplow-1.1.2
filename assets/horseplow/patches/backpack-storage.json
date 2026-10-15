@@ -1,0 +1,8 @@
+[
+  {
+    "file": "horseplow:itemtypes/horseplow",
+    "op": "add",
+    "path": "/storageFlags",
+    "value": 2
+  }
+]

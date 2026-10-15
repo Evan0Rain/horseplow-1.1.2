@@ -1,0 +1,55 @@
+{
+  "code": "workcollar",
+  "class": "ItemWorkCollar",
+  "attributes": {
+    "attachableToEntity": {
+      "categoryCode": "horseplowworkcollar",
+      "attachedShape": {
+        "base": "horseplow:item/workcollar"
+      }
+    }
+  },
+  "shape": {
+    "base": "horseplow:item/workcollar"
+  },
+  "maxStackSize": 1,
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ]
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.3,
+      "z": 0.1
+    },
+    "scale": 1.8
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -0.05
+    },
+    "scale": 0.8
+  }
+}

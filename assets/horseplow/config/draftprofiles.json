@@ -1,0 +1,1023 @@
+{
+  "TeamSpeedMode": "Average", 
+  "HitchWhitelist": [
+    "equus:tamedwildhorse-adult-*-ferus",
+    "equusdestrier:horse-adult-*-destrier",
+    "equusferus:horse-adult-*-ferus",
+    "cavalry:tamedwildhorse-adult-*-cheval",
+    "feverstonehorses:horse-tamed-*-donkey",
+    "feverstonehorses:horse-tamed-*-shire",
+    "feverstonehorses:horse-tamed-*-quarter",
+    "feverstonewilds:horse-tamed-*-donkey",
+    "feverstonewilds:horse-tamed-*-shire",
+    "feverstonewilds:horse-tamed-*-quarter"
+  ],
+  "DefaultProfile": {
+    "Name": "Default",
+    "Enabled": true,
+    "Match": [],
+    "ForwardBlocksPerSecond": 1.0,
+    "ReverseBlocksPerSecond": 0.4,
+    "RopeAnchors": {
+      "LeftPrimary": {
+        "X": 0.53,
+        "Y": 1.4,
+        "Z": 0.28
+      },
+      "LeftSecondary": {
+        "X": 0.53,
+        "Y": 1.4,
+        "Z": -0.35
+      },
+      "RightPrimary": {
+        "X": 0.53,
+        "Y": 1.4,
+        "Z": -0.35
+      },
+      "RightSecondary": {
+        "X": 0.53,
+        "Y": 1.4,
+        "Z": 0.28
+      }
+    },
+    "WorkCollarTransform": {
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RotationDegrees": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  "EntityProfiles": [
+    {
+      "Name": "Feverstone Male Tamed Quarter",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-male-quarter"
+      ],
+      "ForwardBlocksPerSecond": 0.8,
+      "ReverseBlocksPerSecond": 0.3,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed Quarter",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-female-quarter"
+      ],
+      "ForwardBlocksPerSecond": 0.7,
+      "ReverseBlocksPerSecond": 0.25,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": 0.37
+        },
+        "LeftSecondary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": -0.37
+        },
+        "RightPrimary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": -0.37
+        },
+        "RightSecondary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": 0.37
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Male Tamed Shire",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-male-shire"
+      ],
+      "ForwardBlocksPerSecond": 1.1,
+      "ReverseBlocksPerSecond": 0.6,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 7.0,
+          "Z": -0.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -85.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.35
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed Shire",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-female-shire"
+      ],
+      "ForwardBlocksPerSecond": 1.0,
+      "ReverseBlocksPerSecond": 0.5,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 7.0,
+          "Z": -0.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -85.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.35
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Male Tamed donkey",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-male-donkey"
+      ],
+      "ForwardBlocksPerSecond": 0.7,
+      "ReverseBlocksPerSecond": 0.25,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": 0.34
+        },
+        "LeftSecondary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": 0.34
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed donkey",
+      "Enabled": true,
+      "Match": [
+        "feverstonewilds:horse-tamed-female-donkey"
+      ],
+      "ForwardBlocksPerSecond": 0.6,
+      "ReverseBlocksPerSecond": 0.2,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": 0.34
+        },
+        "LeftSecondary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": 0.34
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Male Tamed Quarter",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-male-quarter"
+      ],
+      "ForwardBlocksPerSecond": 0.8,
+      "ReverseBlocksPerSecond": 0.3,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 0.9,
+          "Y": 1.3,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed Quarter",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-female-quarter"
+      ],
+      "ForwardBlocksPerSecond": 0.7,
+      "ReverseBlocksPerSecond": 0.25,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": 0.37
+        },
+        "LeftSecondary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": -0.37
+        },
+        "RightPrimary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": -0.37
+        },
+        "RightSecondary": {
+          "X": 0.85,
+          "Y": 1.23,
+          "Z": 0.37
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Male Tamed Shire",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-male-shire"
+      ],
+      "ForwardBlocksPerSecond": 1.1,
+      "ReverseBlocksPerSecond": 0.6,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 1.2,
+          "Y": 1.5,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 7.0,
+          "Z": -0.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -85.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.35
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed Shire",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-female-shire"
+      ],
+      "ForwardBlocksPerSecond": 1.0,
+      "ReverseBlocksPerSecond": 0.5,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": 0.4
+        },
+        "LeftSecondary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": -0.4
+        },
+        "RightPrimary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": -0.4
+        },
+        "RightSecondary": {
+          "X": 1.13,
+          "Y": 1.45,
+          "Z": 0.4
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 7.0,
+          "Z": -0.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -85.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.35
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Male Tamed donkey",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-male-donkey"
+      ],
+      "ForwardBlocksPerSecond": 0.7,
+      "ReverseBlocksPerSecond": 0.25,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": 0.34
+        },
+        "LeftSecondary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.76,
+          "Y": 1.1,
+          "Z": 0.34
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Feverstone Female Tamed donkey",
+      "Enabled": true,
+      "Match": [
+        "feverstonehorses:horse-tamed-female-donkey"
+      ],
+      "ForwardBlocksPerSecond": 0.6,
+      "ReverseBlocksPerSecond": 0.2,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": 0.34
+        },
+        "LeftSecondary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.73,
+          "Y": 1.07,
+          "Z": 0.34
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -35.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.2,
+          "Z": 1.2
+        }
+      }
+    },
+    {
+      "Name": "Cavalry Male Tamed ",
+      "Enabled": true,
+      "Match": [
+        "cavalry:tamedwildhorse-adult-male-cheval"
+      ],
+      "ForwardBlocksPerSecond": 0.8,
+      "ReverseBlocksPerSecond": 0.3,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.93,
+          "Y": 1.35,
+          "Z": 0.34
+        },
+        "LeftSecondary": {
+          "X": 0.93,
+          "Y": 1.35,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.93,
+          "Y": 1.35,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.93,
+          "Y": 1.35,
+          "Z": 0.34
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 3.5,
+          "Y": -0.5,
+          "Z": 1.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -40.0
+        },
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9,
+          "Z": 0.9
+        }
+      }
+    },
+    {
+      "Name": "Cavalry Female Tamed ",
+      "Enabled": true,
+      "Match": [
+        "cavalry:tamedwildhorse-adult-female-cheval"
+      ],
+      "ForwardBlocksPerSecond": 0.7,
+      "ReverseBlocksPerSecond": 0.25,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.93,
+          "Y": 1.3,
+          "Z": 0.33
+        },
+        "LeftSecondary": {
+          "X": 0.93,
+          "Y": 1.32,
+          "Z": -0.31
+        },
+        "RightPrimary": {
+          "X": 0.93,
+          "Y": 1.32,
+          "Z": -0.31
+        },
+        "RightSecondary": {
+          "X": 0.93,
+          "Y": 1.3,
+          "Z": 0.33
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 3.5,
+          "Y": -0.5,
+          "Z": 1.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -40.0
+        },
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9,
+          "Z": 0.9
+        }
+      }
+    },
+    {
+      "Name": "Equus Male Tamed Ferus",
+      "Enabled": true,
+      "Match": [
+        "equus:tamedwildhorse-adult-male-ferus"
+      ],
+      "ForwardBlocksPerSecond": 0.9,
+      "ReverseBlocksPerSecond": 0.38,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.53,
+          "Y": 1.4,
+          "Z": 0.28
+        },
+        "LeftSecondary": {
+          "X": 0.53,
+          "Y": 1.4,
+          "Z": -0.35
+        },
+        "RightPrimary": {
+          "X": 0.53,
+          "Y": 1.4,
+          "Z": -0.35
+        },
+        "RightSecondary": {
+          "X": 0.53,
+          "Y": 1.4,
+          "Z": 0.28
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": -2.0,
+          "Z": 1.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -95.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Equus Female Tamed Ferus",
+      "Enabled": true,
+      "Match": [
+        "equus:tamedwildhorse-adult-female-ferus"
+      ],
+      "ForwardBlocksPerSecond": 0.75,
+      "ReverseBlocksPerSecond": 0.3,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.53,
+          "Y": 1.38,
+          "Z": 0.28
+        },
+        "LeftSecondary": {
+          "X": 0.53,
+          "Y": 1.38,
+          "Z": -0.35
+        },
+        "RightPrimary": {
+          "X": 0.53,
+          "Y": 1.38,
+          "Z": -0.35
+        },
+        "RightSecondary": {
+          "X": 0.53,
+          "Y": 1.38,
+          "Z": 0.28
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": -2.0,
+          "Z": 1.5
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -95.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Male Adult ferus",
+      "Enabled": true,
+      "Match": [
+        "equusferus:horse-adult-male-ferus"
+      ],
+      "ForwardBlocksPerSecond": 1.0,
+      "ReverseBlocksPerSecond": 0.4,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.56,
+          "Y": 1.4,
+          "Z": 0.3
+        },
+        "LeftSecondary": {
+          "X": 0.56,
+          "Y": 1.4,
+          "Z": -0.37
+        },
+        "RightPrimary": {
+          "X": 0.56,
+          "Y": 1.4,
+          "Z": -0.37
+        },
+        "RightSecondary": {
+          "X": 0.56,
+          "Y": 1.4,
+          "Z": 0.3
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Female Adult ferus",
+      "Enabled": true,
+      "Match": [
+        "equusferus:horse-adult-female-ferus"
+      ],
+      "ForwardBlocksPerSecond": 0.9,
+      "ReverseBlocksPerSecond": 0.38,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.56,
+          "Y": 1.32,
+          "Z": 0.3
+        },
+        "LeftSecondary": {
+          "X": 0.56,
+          "Y": 1.32,
+          "Z": -0.37
+        },
+        "RightPrimary": {
+          "X": 0.56,
+          "Y": 1.32,
+          "Z": -0.37
+        },
+        "RightSecondary": {
+          "X": 0.56,
+          "Y": 1.32,
+          "Z": 0.3
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Male Adult Destrier",
+      "Enabled": true,
+      "Match": [
+        "equusdestrier:horse-adult-male-destrier"
+      ],
+      "ForwardBlocksPerSecond": 1.45,
+      "ReverseBlocksPerSecond": 0.6,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.56,
+          "Y": 1.6,
+          "Z": 0.38
+        },
+        "LeftSecondary": {
+          "X": 0.56,
+          "Y": 1.6,
+          "Z": -0.39
+        },
+        "RightPrimary": {
+          "X": 0.56,
+          "Y": 1.6,
+          "Z": -0.39
+        },
+        "RightSecondary": {
+          "X": 0.56,
+          "Y": 1.6,
+          "Z": 0.38
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 0.3,
+          "Z": 0.0
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.15,
+          "Y": 1.15,
+          "Z": 1.15
+        }
+      }
+    },
+    {
+      "Name": "Female Adult Destrier",
+      "Enabled": true,
+      "Match": [
+        "equusdestrier:horse-adult-female-destrier"
+      ],
+      "ForwardBlocksPerSecond": 1.3,
+      "ReverseBlocksPerSecond": 0.55,
+      "RopeAnchors": {
+        "LeftPrimary": {
+          "X": 0.53,
+          "Y": 1.53,
+          "Z": 0.35
+        },
+        "LeftSecondary": {
+          "X": 0.53,
+          "Y": 1.53,
+          "Z": -0.36
+        },
+        "RightPrimary": {
+          "X": 0.53,
+          "Y": 1.53,
+          "Z": -0.36
+        },
+        "RightSecondary": {
+          "X": 0.53,
+          "Y": 1.53,
+          "Z": 0.35
+        }
+      },
+      "WorkCollarTransform": {
+        "Translation": {
+          "X": -1.0,
+          "Y": 0.3,
+          "Z": 0.0
+        },
+        "RotationDegrees": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.15,
+          "Y": 1.15,
+          "Z": 1.15
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "file": "feverstonehorses:shapes/entity/land/horse-shire.json",
+    "op": "add",
+    "path": "/elements/0/children/6/children/5/children/0/children/0/children/-",
+    "value": {
+      "name": "NeckStorage",
+      "from": [
+        -17.5432767868042,
+        0.703899621963501,
+        -2.0
+      ],
+      "to": [
+        -14.5432767868042,
+        6.703899621963501,
+        2.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "east": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "south": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "west": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "up": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        },
+        "down": {
+          "texture": "#",
+          "uv": [0.0, 0.0, 1.0, 1.0],
+          "enabled": false,
+          "autoUv": false,
+          "snapUV": false
+        }
+      },
+      "rotationOrigin": [
+        -17.5432767868042,
+        0.703899621963501,
+        -2.0
+      ],
+      "rotationZ": -67.5,
+      "uv": [0.0, 0.0],
+      "attachmentpoints": [
+        {
+          "code": "NeckAP",
+          "posX": "2.0",
+          "posY": "0.0",
+          "posZ": "2.0",
+          "rotationX": "0.0",
+          "rotationY": "0.0",
+          "rotationZ": "0.0"
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "feverstonehorses"
+      }
+    ]
+  }
+]
